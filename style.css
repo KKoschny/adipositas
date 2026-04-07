@@ -815,3 +815,67 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 .step-number-teal {
   background: var(--color-primary) !important;
 }
+
+/* ── Habit Cards ───────────────────────────────────────────────────────────── */
+.habit-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-top: var(--space-8);
+}
+.habit-card {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-start;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5) var(--space-6);
+  box-shadow: var(--shadow-sm);
+}
+.habit-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.habit-body strong {
+  display: block;
+  font-size: var(--text-base);
+  font-weight: 700;
+  margin-bottom: var(--space-2);
+  color: var(--color-text);
+}
+.habit-body p {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  max-width: 100%;
+}
+
+/* ── Support List ──────────────────────────────────────────────────────────── */
+.support-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  margin-top: var(--space-8);
+}
+.support-item {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-start;
+}
+.support-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.support-item strong {
+  display: block;
+  font-weight: 700;
+  margin-bottom: var(--space-1, 0.25rem);
+}
+.support-item p {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  max-width: 100%;
+}
