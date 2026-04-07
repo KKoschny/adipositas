@@ -806,3 +806,12 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 .steps-grid-3 {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
+
+/* ── Step external (teal variant) ─────────────────────────────────────────── */
+.step-card-external {
+  border-left: 4px solid var(--color-primary);
+  background: var(--color-surface-alt);
+}
+.step-number-teal {
+  background: var(--color-primary) !important;
+}
